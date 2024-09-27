@@ -4,8 +4,10 @@
 const fruits = ["apple", "banana", "orange", "grape"];
 
 // Accessing Elements
-// Elements are accessed by their index within the array.
-const firstFruit = fruits[0];
+// Elements are accessed by their index within the array. 
+const firstFruit = fruits[0];-
+
+
 const lastFruit = fruits[fruits.length - 1];
 
 console.log(firstFruit); // Output: apple
@@ -14,7 +16,7 @@ console.log(lastFruit); // Output: grape
 // Modifying Elements
 // Elements can be modified by assigning new values to specific indices.
 fruits[1] = "kiwi";
-console.log(fruits); // Output: ["apple", "kiwi", "orange", "grape"]
+console.log(fruits); // Output: ["apple", "kiwi", "orange", "grape"]                         
 
 // Adding Elements
 // Elements can be added using push() (end) and unshift() (beginning).
@@ -36,9 +38,9 @@ const slicedFruits = fruits.slice(1, 3);
 console.log(slicedFruits); // Output: ["kiwi", "orange"]
 
 // Splicing an Array
-// splice() can add, remove, or replace elements in an array.
+// Splice() can add, remove, or replace elements in an array.
 fruits.splice(1, 2, "pear", "peach");
-console.log(fruits); // Output: ["apple", "pear", "peach", "grape"]
+console.log(fruits); // Output: "apple", "pear", "peach", "grape"]
 
 // Concatenating Arrays
 // Arrays can be combined using concat().

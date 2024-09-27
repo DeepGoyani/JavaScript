@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .mains{
+            border: 1px solid black;
+            background-color:#181818;
+            height: 900px;
+            width: 1500px;
+            
+
+        }
+        .line{
+            height: 20px;
+            width: 20px;
+            padding-left: 20%;
+            padding-top: 7%;
+        }
+        .lbox{
+            height: 900px;
+            width:200px ;
+            background-color: #212121;
+        }
+        .grid1{
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 14px ;
+        }
+        .homep{
+            margin-top: 10%;
+            color: white;
+            border: 1px solid #383838;
+            background-color: #383838;
+            height: 20px;
+            width: 160px;
+        }
+        .home{
+            margin-top: 25%;
+            color: white;
+            margin-left: -128%;
+        }
+        .ex{
+            margin-top: 7%;
+        }
+        .explore{
+            margin-left: -128%;
+            margin-top: 15%;
+            color: white;
+        }
+        .q{
+            color: gray;
+           
+        }
+        .grid2{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-left: 7%;
+            margin-top: 7%;
+        }
+        .lib{
+            color: white;
+            margin-top: 5%;
+            margin-left: -15%;
+        }
+        .his{
+            margin-top: 5%;
+        }
+        .w{
+            color: Gray;
+            margin-left: 10%;
+        }
+        .grid3{
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 7%;
+            margin-left: 7%;
+            
+        }
+        .nadir{
+           height: 15px;
+           margin-top: -14%;
+        }
+        .nad{
+            color: white;
+            margin-top: -2%;
+            
+        }
+        .coke{
+            margin-top: 27%;
+        }
+        .std{
+            margin-top: 7%;
+           
+            color: white;
+        }
+        .sbox{
+            color:white;
+            border: 2px solid #323232;
+            height: 21px;
+            width: 450px;
+            margin-top: -59%;
+            margin-left: 34%;
+            padding-top: -1%;
+            border-radius: 5px;
+        }
+        .ims{
+           margin-left: 62.5%;
+           margin-top: -1.5%;
+           border: #212121;
+           background-color: #212121;
+           height: 20px;
+           width: 30px;
+          
+           
+        }
+        .mic{
+            margin-left: 65%;
+            margin-top: -1.5%;
+        }
+        .live{
+            margin-left: 80%;
+            margin-top: -1.8%;
+        }
+        .mor{
+            margin-left: 83%;
+            margin-top: -1.9%;
+        }
+        .bell{
+            margin-left: 86%;
+            margin-top: -1.8%;
+        }
+        .pro{
+            margin-left: 89%;
+            margin-top: -1.8%;
+        }
+        .x{
+            color: #323232;
+            margin-left: 13.5%;
+        }
+        .grid4{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto; 
+            margin-left: 15%; 
+            margin-top: 1%;
+        }
+        .f{
+            color: black;
+            border: 2 px solid ;
+            background-color: white;
+            height: 20px;
+            width: 30px;
+            border-radius: 17px;
+            text-align: center;
+              
+        }
+        .cook{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 100px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -15%;
+        }
+        .ux{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 40px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -60%;
+        }
+        .cs{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 100px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -50%;
+        }
+        .Music{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 70px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -85%;
+        }
+        .be{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 70px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -105%;
+        }
+        .to{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 70px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -125%;
+        }
+        .sm{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 100px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -110%;
+        }
+        .te{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 70px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -160%;
+        }
+        .ip{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 90px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -150%;
+        }
+        .uid{
+            color:white ;
+            background-color: #383838;
+            height: 20px;
+            width: 200px;
+            border-radius: 17px;
+            text-align: center;  
+            margin-left: -85%;
+        }
+        .grid5{
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            margin-left: 15%;
+            margin-top: 1%;
+            padding-left: -23%;
+            
+        }
+        .cmn{
+            padding-left: -40%;
+        }
+        .livee{
+            margin-left: 301%;
+            margin-top: -10%;
+            height: 50px;
+            width: 50px;
+            border: 1px solid rgb(246, 215, 185);
+            background-color: rgba(231, 191, 152,.7);
+            height: 25px;
+            width: 236px;
+            text-align: center ;
+        }
+        .grid6{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto auto ;
+        }
+        .tstd{
+            margin-left:15%;
+                   
+        }
+        .cd{
+            margin-left: 17%;
+            margin-top: -1.5%;
+            color: white;
+            font-style: normal            ;
+        }
+        .tst{
+            margin-left: 36.5%;
+            margin-top: -2%;
+        }
+        .cds{
+            margin-left: 39%;
+            margin-top: -2%;
+            color: white;
+        }
+        .snd{
+            margin-top: -2%;
+            color: white;
+            margin-left: 57.5%;
+        }
+        .job{
+            margin-left: 60%;
+            margin-top: -2.5%;
+            color: white;
+        }
+        .mix{
+            margin-left: 79%;
+            margin-top: -3%;
+            color: white;
+        } 
+        .csb{
+            margin-left: 17%;
+            color: gray;
+            margin-top: 1.5%;
+        }
+        .bd{
+            margin-left:26% ;
+            margin-top: -1.05%;
+        }
+        .vi{
+            color: gray;
+            margin-left:16.8% ;
+        }
+        .atx{
+            color: gray;
+            margin-left: 38.5%;
+            margin-top:-2.5% ;
+        }
+        .b{
+            margin-left: 51.5%;
+            margin-top:-1%;
+        }
+        .xv{
+            color: gray;
+            margin-left: 38.5%;
+        }
+        .y{
+            color: gray;
+            margin-left: 60%;
+            margin-top: -2.4%;
+        }
+        .o{
+            color: gray;
+            margin-left: 60%;
+             
+        }
+        .h{
+            color: gray;
+            margin-left: 79% ;
+            margin-top: -4%;
+        }
+        .grid6{
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+            margin-left: 15%;
+            margin-top: 7%;
+        }
+        .aq{
+            margin-left: 15%;
+            margin-top: .4%;
+        }
+        .vp{
+            margin-left: 17%;
+            margin-top: -2%;
+            color: white;
+        }
+        .gb{
+            color: gray;
+            margin-left: 17%;
+            margin-top: .5%;
+        }
+        .hb{
+            color: gray;
+            margin-left:17%;
+            margin-top: .5%;
+        }
+        .bh{
+            color: white;
+            margin-left:36.5%;
+            margin-top: -5%;
+        }
+        .kj{
+            color: gray;
+            margin-left:36.5% ;
+        }
+        .qw{
+            margin-left: 57.5%;
+            margin-top: -5%;
+        }
+        .visa{
+            color: white;
+            margin-left: 60%;
+            margin-top: -1.8%;
+        }
+        .not{
+            color: gray;
+            margin-left: 60%;
+            margin-top:0.2%
+        }
+        .er{
+            color: gray;
+            margin-left: 60%;
+            margin-top:0.2%
+        }
+        .voo{
+            color: white;
+            margin-left: 79%;
+            margin-top:-4.9%
+        }
+        .fast{
+            color: white;
+            margin-left: 81%;
+            margin-top:-1.8%;
+        }
+        .mizo{
+            color: gray;
+            margin-left: 81%;
+            margin-top: 0.3%;
+        }
+    </style>
+</head>
+<body>
+    <div class="mains">
+        <div class="lbox">
+            <div class="line"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Youtube%20logo.png?raw=true"></div>
+            <div class="grid1">
+                <div class="homep"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/home.png?raw=true"></div>
+                <div class="home">Home</div>
+                <div class="ex"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/explore.png?raw=true"></div>
+                <div class="explore">Explore</div>
+                <div class="ex"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/shorts.png?raw=true"></div>
+                <div class="explore">Shorts</div>
+                <div class="ex"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/subscription.png?raw=true"></div>
+                <div class="explore">Subscriptions</div>
+            </div>
+            <div>
+                <div class="q">______________________</div>
+            </div>
+            <div class="grid2">
+                <div><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/library.png?raw=true" ></div>
+                <div class="lib">Library</div>
+                <div class="his"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/history.png?raw=true" ></div>
+                <div class="lib">History</div>
+                <div class="his"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/your_video.png?raw=true"></div>
+                <div class="lib">Your Video</div>
+                <div class="his"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/watch_later.png?raw=true" ></div>
+                <div class="lib">Watch later</div>
+                <div class="his"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/liked.png?raw=true"></div>
+                <div class="lib">Liked Videos</div>
+                <div class="his"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/down_arrow.png?raw=true" ></div>
+                <div class="lib">Show more</div>
+
+            </div>
+            <div>
+                <div class="q">______________________</div>
+            </div>
+            <div class="w">Subscriptions</div>
+            <div class="grid3">
+                <div class="nadir"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(4).png?raw=true" height="20px" ></div>
+                <div class="nad">Nadir on the go</div>
+                <div class="coke"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(1).png?raw=true" height="20px"></div>
+                <div class="std">Coke Studio Bangla</div>
+                <div class="coke"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(2).png?raw=true" height="20px"></div>
+                <div class="std">Nkshid</div>
+                <div class="coke"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(3).png?raw=true" height="20px"></div>
+                <div class="std">Figma.</div>
+                <div class="coke"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(4).png?raw=true" ></div>
+                <div class="std">Android toto see...</div>
+                <div class="coke"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(5).png?raw=true" ></div>
+                <div class="std">Alex</div>
+
+            </div>
+        </div>
+        <div class="rbox">
+            <div class="search">
+                <div class="sbox">Search</div>
+                <div class="ims"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/search.png?raw=true" height="20px" width="20px"></div>
+            </div>
+            <div class="mic"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/mic.png?raw=true"></div>
+            <div class="live"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/create.png?raw=true" ></div>
+            <div class="mor"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/more.png?raw=true"></div>
+            <div class="bell"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/bell.png?raw=true" ></div>
+            <div class="pro"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201.png?raw=true" ></div>
+            <div class="x">________________________________________________________________________________________________________________________________________________________________________________</div>
+            <div class="grid4">
+                <div class="f">All</div>
+                <div class="cook">Coke Studio</div>
+                <div class="ux">Ux</div>
+                <div class="cs">Case Study</div>
+                <div class="Music">Music</div>
+                <div class="be">Bangla</div>
+                <div class="to">Tour</div>
+                <div class="sm">Saintmartin</div>
+                <div class="te">Tech</div>
+                <div class="ip">iPhone 13</div>
+                <div class="uid">User Interface Design</div>
+
+            </div>
+            <div class="x">________________________________________________________________________________________________________________________________________________________________________________</div>
+            <div class="grid5">
+                <div class="stdio"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-8.png?raw=true" ></div>
+                <div class="cmn"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-9.png?raw=true" ></div>
+                <div class="cmn"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-10.png?raw=true" ></div>
+                <div><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-11.png?raw=true" alt=""></div>
+                <div class="livee"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/live.png?raw=true" ></div>
+            </div>
+            <div>
+                <div class="tstd"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(1).png?raw=true"></div>
+                <div class="cd">Bulbuli|Coke Studio Bangla|<br>Season One|Ritu RajXNandita</div>
+                <div class="tst"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(4).png?raw=true"></div>
+                <div class="cds">Infinix 12:<br>Amoled Hello G38 SoC</div>
+                <div class="snd"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%204%20(3).png?raw=true" ></div>
+                <div class="job">My first UX Design Case study- <br>This Got me my first job</div>
+                <div class="mix">My Mix</div>
+            </div>
+            <div>
+                <div class="csb">Coke Studio Bangla </div>
+                <div class="bd"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true" height="15px" width="15px"></div>
+                <div class="vi">1.5M views . 2 days ago</div>
+                <div class="atx">ATC Android ToTo Company</div>
+                <div class="b"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/verified.png?raw=true" height="15px" width="15px"></div>
+                <div class="xv">42M views . 4 years ago</div>
+                <div class="y">Saptarshi Prakash</div>
+                <div class="o">4.8k views . 1 years ago</div>
+                <div class="h">Lopamendra Mitra,Anupam Roy and More</div>
+            </div>
+            <div class="grid6">
+                <div class="ui"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-4.png?raw=true"></div>
+                <div class="bng"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-5.png?raw=true"></div>
+                <div><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-6.png?raw=true"></div>
+                <div><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Thumbnail-7.png?raw=true"></div>
+            </div>
+            <div>
+                <div class="aq"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201.png?raw=true"></div>
+                <div class="vp">UX Design-What is it(From AJ <br>& Smart )</div>
+                <div class="gb">AJ&Smar</div>
+                <div class="hb">150K views . 3 years ago</div>
+                <div class="bh">Mix-Mombati|Mohan Sharif|Dhakaiya <br>Dose |Mahib Ahsan&Anika  </div>
+                <div class="kj">Mohan Sharif,Odd Signature, <br> Shayan Chowdhary Amob and more</div>
+                <div class="qw"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201.png?raw=true" ></div>
+                <div class="visa"> hello broo howw to make visa             - <br>      |48 visa free </div>
+                <div class="not">Nadir On the go</div>
+                <div class="er">1.7M views . 1 year ago</div>
+                <div class="voo"><img src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/02.youtube-clone/assets/Ellipse%201%20(3).png?raw=true"></div>
+                <div class="fast">14 Advanced tips to design <br> Faster in figma </div>
+                <div class="mizo">Mizko <br>53K views . 1 year ago  </div>
+            </div>
+        
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
